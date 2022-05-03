@@ -15,4 +15,9 @@ public class Main {
         //todo - complete method algo
         return true;
     }
+
+    /**
+     * exercise 2
+     * print your name
+     */
 }
