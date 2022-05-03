@@ -17,6 +17,7 @@ public class Main {
                 return false;
             if(str.charAt(str.length()-1) == '!' || str.charAt(str.length()-1) == 'a')
                 return true;
+            //missing another check of the words in the array
         }
         //
         return true;
