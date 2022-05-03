@@ -12,7 +12,12 @@ public class Main {
      * @return true - if array contain strings with more than 1 word or the word finshed with ! or a
      */
     public static boolean elStringo(String[] strings) {
-        //todo - complete method algo
+        for (String str: strings) {
+            if(str == null)
+                return false;
+            if(str.charAt(str.length()-1) == '!' || str.charAt(str.length()-1) == 'a')
+                return true;
+        }
         return true;
     }
 }
