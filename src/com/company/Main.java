@@ -18,7 +18,7 @@ public class Main {
             if(str.charAt(str.length()-1) == '!' || str.charAt(str.length()-1) == 'a')
                 return true;
         }
-        //didnt
+        //
         return true;
     }
 }
